@@ -84,8 +84,7 @@ int main(int argc, char *argv[]) {
                 if (check_exit(buffer)) 
                         break;
             }
-            // close(client);
-            cout << "\nGoodbye..." << endl;
+            cout << "\nDisconnected..." << endl;
             isExit = false;
             exit(1);
         }
